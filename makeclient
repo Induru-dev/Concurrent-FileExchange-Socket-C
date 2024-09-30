@@ -1,0 +1,9 @@
+client.out: cli2211.o recv_file.o
+	cc -o client.out cli2211.o recv_file.o
+
+cli2211.o: cli2211.c sock.h
+	cc -c cli2211.c
+
+recv_file.o: recv_file.c sock.h
+	cc -c recv_file.c
+
