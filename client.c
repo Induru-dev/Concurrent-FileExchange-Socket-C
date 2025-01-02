@@ -1,5 +1,5 @@
 /*
- * File: cli2211.c
+ * File: client.c
  * Description: This file contains the implementation of a client that connects 
  *              to a server, requests a file, and receives the file data from the server.
  * Author: Induru sasmitha

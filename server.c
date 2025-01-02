@@ -1,5 +1,5 @@
 /*
- * File: srv2378.c
+ * File: server.c
  * Description: This file contains the implementation of a server that accepts
  *              client connections and transfers files based on client requests.
  * Author: Induru Sasmitha

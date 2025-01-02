@@ -1,8 +1,8 @@
-server.out: srv2378.o sig_child.o send_list.o send_file.o log_info.o
-	cc -o server.out srv2378.o sig_child.o send_list.o send_file.o log_info.o
+server.out: server.o sig_child.o send_list.o send_file.o log_info.o
+	cc -o server.out server.o sig_child.o send_list.o send_file.o log_info.o
 
-srv2378.o: srv2378.c sock.h
-	cc -c srv2378.c
+server.o: server.c sock.h
+	cc -c server.c
 
 sig_child.o: sig_child.c sock.h
 	cc -c sig_child.c
